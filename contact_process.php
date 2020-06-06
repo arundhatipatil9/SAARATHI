@@ -1,10 +1,9 @@
 <?php
 
     $to = "arundhati9999@gmail.com";
-    $from = $_REQUEST['email'];
+    $from = "arundhati9999@gmail.com";
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
     $headers = "From: $from";
